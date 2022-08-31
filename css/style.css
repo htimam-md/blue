@@ -165,14 +165,15 @@ header {
     padding-left: 0;
 }
 
-.st{
-    background-color:rgba(12,16,25,0.7)
+.st {
+    background-color: rgba(12, 16, 25, 0.7)
 }
-.st::after{
+
+.st::after {
     content: '';
     width: 0;
     height: 0;
-    border-top: 19px solid rgba(12,16,25,0.7);
+    border-top: 19px solid rgba(12, 16, 25, 0.7);
     border-right: 51px solid transparent;
     position: relative;
     left: 189px;
@@ -185,18 +186,21 @@ header {
     margin-bottom: 25px;
     min-height: 18px;
 }
-.title-content pre{
+
+.title-content pre {
     font-size: 12px;
     font-family: sans-serif;
     line-height: 1.2;
     width: 277px;
 }
-.title-content{
+
+.title-content {
     font-size: 12px;
     font-family: sans-serif;
     line-height: 1.2;
     width: 277px;
 }
+
 .icon {
     float: left;
     width: 17%;
@@ -270,63 +274,79 @@ header {
     float: left;
     padding: 38px;
 }
-.title p{
+
+.title p {
     color: #fafafa;
     text-transform: capitalize;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: normal;
 }
-.title p span{
+
+.title p span {
     color: #0079bc;
 }
-.app-link{
+
+.app-link {
     float: left;
     width: 36%;
 }
-.app-link img{
-   width: 100%;
+
+.app-link img {
+    width: 100%;
 }
-.app-link-content{
+
+.app-link-content {
     float: right;
     width: 54%;
 }
-.app-link-content a{
-   display: inline-block;
-   border-radius: 5px;
+
+.app-link-content a {
+    display: inline-block;
+    border-radius: 5px;
 }
-.app-link-content h1{
+
+.app-link-content h1 {
     color: #0079bc;
-   font-weight: 800;
+    font-weight: 800;
 }
-.app-link-content img{
-  
-   border-radius: 5px;
+
+.app-link-content img {
+    border-radius: 5px;
 }
-.title-content-2{
+
+.title-content-2 {
     margin-top: 10px;
 }
-.btn{
+
+.btn {
     display: inline-block;
     padding-top: 5px;
 }
+
+
 /* company end */
+
 .footer {
     background-color: #121b2c;
     min-height: 130px;
     /* height: 350px; */
     overflow: hidden;
 }
-.f-menu{
+
+.f-menu {
     margin-top: 20px;
 }
+
 .menu-footer nav ul li {
     display: block;
     float: left;
     list-style-type: none;
-    border-right:1px solid  #f2f2f2;;
+    border-right: 1px solid #f2f2f2;
+    ;
 }
-.menu-footer nav ul li a{
+
+.menu-footer nav ul li a {
     display: block;
     text-decoration: none;
     padding: 0 25px;
@@ -337,28 +357,26 @@ header {
     font-size: 12px;
     text-transform: capitalize;
 }
+
 .f-menu nav ul li:nth-child(6) {
     border-right: 0px;
 }
 
-    .f-menu  { 
-        margin-bottom: 15px;
-        width: 40%;
-        
-    }
-    
-.menu-footer{
+.f-menu {
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.menu-footer {
     float: left;
 }
 
-
-.copyright{
+.copyright {
     clear: both;
     color: #f2f2f2;
     margin-bottom: 15px;
-    
 }
-.f-logo{
+
+.f-logo {
     width: 50%;
-    
 }
