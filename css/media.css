@@ -303,6 +303,18 @@
 
      }
 
+     .banner-content button {
+        /* width: 198px; */
+        padding: 11px 14px;}
+        .fa {
+           
+            font-size: 21px;
+        }
+     .f-menu {
+        width: 34em;
+         padding: 0;
+     }
+
      .f-logo {
          width: 15em;
          margin: 0;
@@ -353,6 +365,17 @@
 
      /* Large devices (desktops, 1400px and up) */
      @media (min-width: 1400px) and (max-width: 1699.98px) {
+        .banner-content button {
+            /* width: 198px; */
+            padding: 11px 14px;}
+            .fa {
+               
+                font-size: 21px;
+            }
+         .f-menu {
+            width: 34em;
+             padding: 0;
+         }
         .f-menu{
             padding: 0;
         }
@@ -371,9 +394,16 @@
 
      /* Large devices (desktops, 1700px and up) */
      @media (min-width: 1700px) and (max-width: 1999.98px) {
-         .box {
-
-             background-color: rgb(4, 84, 231);
+        .banner-content button {
+            /* width: 198px; */
+            padding: 11px 14px;}
+            .fa {
+               
+                font-size: 21px;
+            }
+         .f-menu {
+            width: 34em;
+             padding: 0;
          }
      }
 
