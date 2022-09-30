@@ -1,0 +1,377 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+    .btn_header {
+        /* border: 1px solid red; */
+        float: none;}
+
+    .logo {
+        width: 69%;
+    }
+    .logo img{
+        width: 14em;
+    }
+
+    .menu {
+        /* width: 12em; */
+      float: none;
+    }
+
+
+    .menu nav ul {
+        float: none;
+    }
+
+    .menu ul li {
+        float: none;}
+
+        .banner-content {
+            margin-top: 1em;}
+
+    .banner_container {
+        background-image: url(../img/pexels-sebastiaan-stam-1480690.jpg);
+        background-size: 33em 28em;}
+
+
+     .wrapper {
+         /* border: 2px solid rgb(0, 153, 255); */
+         /* width: 80%; */
+         margin: 0px 40px;
+     }
+
+     .single {
+         /* display: block; */
+         width: 100%;
+         padding: 0;
+     }
+
+     .info {
+         margin-top: 4px;
+         /* border: 2px solid green; */
+         width: 100%;
+         /* height: 250px; */
+
+         padding: 0;
+     }
+
+     .app-link img {
+         width: 6em;
+     }
+
+     .app-link-content img {
+         width: 7em;
+     }
+
+     .f-menu {
+
+         padding: 0;
+
+     }
+
+     .f-menu nav ul li:first-child a {
+         padding: 0;
+     }
+
+     .menu-footer nav ul li {
+         display: block;
+         float: none;
+
+         /* border-right: 1px solid #f2f2f2; */
+     }
+
+     .menu-footer nav ul li {
+         border: none;
+     }
+
+     .menu-footer nav ul li a {
+         padding: 0;
+     }
+
+     .f-logo {
+         margin: 0;
+     }
+     .f-logo img {
+        width: 6em;
+     }
+
+     .f-logo1 {
+         margin: 0;
+         float: left;
+     }
+
+     .f-logo2 {
+         float: left;
+     }
+     .banner-content {
+        width: 16em;}
+     .banner-content p:first-child{
+        font-size: 2em;
+    }
+    .banner-content h1{
+        font-size: 1em;
+    }
+
+    .banner-content button {
+        width: 11em;
+        padding: 10px 10px;
+        
+        font-size: 17px;
+        margin-top: 29px;
+       
+    }
+
+.fa {
+    /* color: #0173b9; */
+    font-size: 1em;
+}
+
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .menu {
+        width: 31em;
+    }
+
+    .menu ul li a {
+       
+        padding: 0 7px;
+        
+        font-size: .8em;
+    }
+    .logo{
+        clear: both;
+        width: 7em;
+    }
+
+    .banner_container {
+        background-image: url(../img/pexels-sebastiaan-stam-1480690.jpg);
+        background-size: 42em 28em;}
+    
+
+     .wrapper {
+         width: 80%;
+         margin: 0 auto;
+
+     }
+
+     .single {
+
+         width: 31em;
+         padding: 0;
+     }
+
+     .info {
+         margin-top: 4px;
+         /* border: 2px solid green; */
+         width: 100%;
+         /* height: 250px; */
+
+         padding: 0;
+     }
+     .f-menu{
+        padding: 0;
+     }
+
+     
+     .menu-footer nav ul li a {
+        padding: 0 7px;
+     }
+     .f-logo {
+       
+        margin-left: 0;
+    }
+     .app-link img {
+         width: 6em;
+     }
+
+     .banner-content p:first-child{
+        font-size: 2em;
+    }
+    .banner-content h1{
+        font-size: 1em;
+    }
+
+    .banner-content button {
+        width: 11em;
+        padding: 10px 10px;
+        
+        font-size: 17px;
+        margin-top: 29px;
+       
+    }
+
+.fa {
+    /* color: #0173b9; */
+    font-size: 1em;
+}
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .menu{
+        width: 34em;
+    }
+
+    .menu ul li a {
+        padding: 0px 4px;
+    }
+
+    .banner-content p:first-child{
+        font-size: 2em;
+    }
+    .banner-content h1{
+        font-size: 1em;
+    }
+
+    .banner-content button {
+        width: 11em;
+        padding: 10px 10px;
+        
+        font-size: 17px;
+        margin-top: 29px;
+       
+    }
+
+.fa {
+    /* color: #0173b9; */
+    font-size: 1em;
+}
+
+     .single {
+
+         width: 12em;
+         padding: 0;
+     }
+
+     .content p {
+
+         font-size: 1em;
+     }
+
+     .icon-content h1 h2 {
+
+         font-size: .8750em;
+     }
+
+     .info {
+         /* margin-top: 4px; */
+         /* border: 2px solid green; */
+         width: 14em;
+     }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu{
+        width: 41em;
+    }
+
+    .menu ul li a {
+        padding: 0px 4px;
+    }
+
+
+    .logo {
+        clear: both;
+        width: 6em;
+        float: left;}
+
+       
+
+     .single {
+
+         width: 12em;
+     }
+
+     .f-menu {
+         margin: 0;
+         /* border: 1px solid red; */
+         width: 29em;
+     }
+
+     .menu-footer nav ul li a {
+
+         padding: 0px 13px;
+
+         font-size: 11px;
+
+     }
+
+     .f-logo {
+         width: 15em;
+         margin: 0;
+         /* border: 1px solid red; */
+     }
+
+
+     .f-logo img {
+         /* display: inline-block; */
+         width: 6em;
+     }
+    }
+
+     /* Large devices (desktops, 1200px and up) */
+     @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+         .f-menu {
+            width: 34em;
+             padding: 0;
+         }
+
+         .menu-footer nav ul li a {
+            
+            padding: 0 18px;
+        }
+         .f-logo {
+           width: 22em;
+            margin-left: 0;
+            padding: 0;
+            /* border: 1px solid red; */
+        }
+        .f-logo1 {
+            margin: 0;
+            /* border: 1px solid red; */
+            /* float: left; */
+            /* margin-left: 36px; */
+            width: 10em;
+        }
+
+
+     }
+
+     /* Large devices (desktops, 1400px and up) */
+     @media (min-width: 1400px) and (max-width: 1699.98px) {
+        .f-menu{
+            padding: 0;
+        }
+
+        .f-logo {
+           
+            margin-left: 0;
+            /* border: 1px solid red; */
+        }
+        .f-logo img {
+            
+            width: 9em;
+        }
+
+    }
+
+     /* Large devices (desktops, 1700px and up) */
+     @media (min-width: 1700px) and (max-width: 1999.98px) {
+         .box {
+
+             background-color: rgb(4, 84, 231);
+         }
+     }
+
+     /* Extra large devices (large desktops, 20000px and up) */
+     @media (min-width: 2000px) {      
+     }
