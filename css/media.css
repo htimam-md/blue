@@ -318,19 +318,13 @@
 
      /* Large devices (desktops, 1200px and up) */
      @media (min-width: 1200px) and (max-width: 1399.98px) {
- .banner-content button {
+        .banner-content button {
             /* width: 198px; */
             padding: 11px 14px;}
             .fa {
                
                 font-size: 21px;
             }
-         .f-menu {
-            width: 34em;
-             padding: 0;
-         }
-
-
          .f-menu {
             width: 34em;
              padding: 0;
